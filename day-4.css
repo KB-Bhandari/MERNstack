@@ -1,0 +1,58 @@
+h1{
+    background-color: red;
+    display: inline;
+    color: wheat;
+    padding: 10px;
+}
+body{
+    background-color: bisque;
+    /* background-image: url(./blood-moon-wallpaper.jpg) ; */
+    
+}
+#para1{
+    color: brown;
+    background-color: wheat;
+    
+    
+}
+#para2{
+    color: #00ff51;
+    background-color: #f0ff;
+    display: inline;
+}
+#para3{
+    color: hsl(268, 69%, 45%);
+    background-color: aqua;
+}
+#para4{
+    background-color: hsl(200, 20%,90%);
+}
+#para5{
+    background-color: #00ff51;
+    
+}
+.box1{
+    background-color: rgb(188, 188, 7);
+    opacity: 0.4;
+    height: 200px;
+    display: inline-block;
+    
+}
+.box2{
+    opacity: 0.3;
+    background-color: #00ff51;
+    display: inline-block
+}
+.box{
+    border:4px inset;
+    border-color: rgb(224, 126, 126);
+}
+.intro{
+   
+    border-color: #00ff51;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    
+}
