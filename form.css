@@ -1,0 +1,49 @@
+
+form{
+    background-image: linear-gradient( aqua,rgb(80, 64, 64));
+    width: 500px;
+    padding: 20px;
+    font-weight: bold;
+    
+    /* border:7px groove rgb(93, 160, 128);
+} */
+    /* border: 10px inset rgb(156, 215, 186); */
+    border: 4px inset rgb(60, 219, 161);
+    border-radius: 10px;
+}
+.input{
+    padding: 10px;
+    width: 90%;
+    
+}
+
+textarea{
+    height: 100px;
+}
+body{
+    background-color: antiquewhite;
+    align-items: center;
+}
+.button{
+
+padding: 8px;
+font-weight: bold;
+border-radius: 10px;
+width: 90px;
+font-size: large;
+color: rgb(4, 68, 68);
+background-color: blanchedalmond;
+border: 2px solid rgb(4, 68, 68);
+}
+.button:hover{
+    color: blanchedalmond;
+    background-color:rgb(4, 68, 68);
+    border-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
