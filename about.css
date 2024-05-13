@@ -1,0 +1,128 @@
+p{
+    display: block;
+    margin: 20px;
+}
+
+.team{
+    
+    background-image: linear-gradient(yellow,orange);
+    padding: 10px;
+}
+.timing:hover{
+    background-image:linear-gradient(rgb(215, 153, 39),rgb(219, 100, 100)) ;
+}
+.timing{
+    padding: 10px;
+}
+h1{
+    background-color: white;
+    display: inline;
+    
+    font-size:50px;
+    
+}
+span{
+    background-image:linear-gradient(yellow,orange) ;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+body{
+    padding: 20px;
+    text-align: justify;
+}
+.form-control{
+    color: antiquewhite;
+    background-color:lightblue;
+    width: 256px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    float: left;
+    margin-right: 10px;
+    
+}
+/* h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 20px;
+} */
+
+.message{
+    /* background-color: burlywood; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+}
+.donate, .submitBtn{
+    
+    border-radius: 10px;
+    width: 150px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.donateBox{
+    height: 300px;
+    /* border: 2px solid red; */
+}
+.submitBtn:hover{
+    color: red;
+}
+
+.para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form{
+   
+    display: inline;
+    padding: 5px;
+    
+}
+.policy>.nav>ul>li>a{
+    text-decoration: none;
+    color: grey;
+}
+@media(max-width:768px) {
+    .form-control{
+        display: inline-block;
+    };
+    .message{
+        height: 700px;
+    }
+    
+    .donateBox{
+        height: 450px;
+    }
+}
+.about{
+    background-image: url(./shelterHomeofDOG915.jpg) ;
+   background-size: cover;
+   width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    /* position:absolute; */
+    display: inline-block;
+    background-position: center;
+    
+    
+    
+}
+.label{
+    background-color: orange;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    
+}
