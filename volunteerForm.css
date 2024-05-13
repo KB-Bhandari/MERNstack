@@ -1,0 +1,50 @@
+.container{
+    width:600px;
+    padding: 8px;
+    border:1px solid rgb(130, 130, 12);
+    border-radius: 10px;
+    background-color: orange;
+    margin-top: 20px;
+    height: 500px;
+}
+ textarea{
+    resize: vertical;
+    height: 100px;
+}
+ input[type="text"],
+ input[type="email"],
+ input[type="number"],
+ #message{
+    width: 90%;
+    padding: 8px;
+    /* border: 1px solid black; */
+    border: 5px;
+    margin: 5px;
+}
+.formSET{
+    display: block;
+    font-weight: bold;
+}
+
+@media(max-width:700px){
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    #message{
+    width: 90%;
+    padding: 8px;
+    /* border: 1px solid black; */
+    margin: 5px;
+    
+}
+.container{
+    width:400px;
+    padding: 10px;
+    border:1px solid rgb(130, 130, 12);
+    border-radius: 10px;
+    
+    margin-top: 20px;
+    height: 500px;
+}
+
+}
